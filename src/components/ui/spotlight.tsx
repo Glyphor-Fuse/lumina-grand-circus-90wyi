@@ -18,7 +18,7 @@ export const Spotlight = ({
     clientX,
     clientY,
   }: ReactMouseEvent) {
-    let { left, top } = currentTarget.getBoundingClientRect();
+    const { left, top } = currentTarget.getBoundingClientRect();
 
     mouseX.set(clientX - left);
     mouseY.set(clientY - top);
