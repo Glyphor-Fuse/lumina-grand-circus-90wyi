@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
 
-body {
-  font-family: 'Cormorant Garamond', serif;
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --font-display: 'Limelight', cursive;
+  --font-body: 'Inter', sans-serif;
 }
